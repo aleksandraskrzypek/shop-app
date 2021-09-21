@@ -1,0 +1,227 @@
+.shop-head{
+    display: grid;
+    place-items:center;
+    background-color: #dadbd3;
+    height: 100vh;
+}
+
+.shop-body{
+    margin-top: -50px;
+    background-color: #ededed;
+    height: 90vh;
+    width: 70vw;
+    box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.7);
+}
+
+.shop-body-up{
+    display: flex;
+    justify-content:space-between;
+    
+}
+
+.tittle{
+    padding: 30px;
+
+    color:rgb(75, 70, 70);
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.shopping-cart{
+    display: flex;
+    padding: 30px;
+    align-items: center;
+}
+
+.shopping-cart>h1{
+    color:rgb(75, 70, 70);
+    font-family: 'Open Sans Condensed', sans-serif;
+
+    padding-right: 5px;
+}
+
+.shop-elements{
+    width: 40vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    margin-left:50px;
+}
+
+.shop-element{
+    margin: 15px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 200px;
+    width: 180px;
+    background-color: #c1c2bc5d;
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    
+}
+
+.right-place{
+    display: flex;
+    flex-direction: column;
+
+    margin:15px;
+
+    margin-right:50px;
+}
+
+@media screen and (max-width: 1600px) {
+    .shop-element {
+        height: 200px;
+        width: 150px;
+    }
+  }
+
+@media screen and (max-width: 1400px) {
+    .shop-element {
+        height: 150px;
+        width: 150px;
+        margin: 10px;
+    }
+    .shop-element>img{
+        height: 60%;
+        width: 60%;
+    }
+  }
+
+@media screen and (max-width: 1300px) {
+    .shop-element {
+        height: 120px;
+        width: 100px;
+        margin: 15px;
+    }
+    .shop-element>img{
+        height: 55%;
+        width: 55%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .shop-element {
+        height: 120px;
+        width: 100px;
+        margin: 10px;
+    }
+    .shop-element>img{
+        height: 55%;
+        width: 55%;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    .shop-element {
+        height: 100px;
+        width: 80px;
+        margin: 10px;
+    }
+    .shop-element>img{
+        height: 55%;
+        width: 55%;
+    }
+    .price>h1{
+        font-size: 15px;
+    }
+    
+    .right-place{
+    margin:0px;
+    margin-right:15px;
+    }
+    .shopping-cart>h1{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .shop-element {
+        height: 100px;
+        width: 80px;
+        margin:5px;
+    }
+    .shop-element>img{
+        height: 55%;
+        width: 55%;
+    }
+    .price>h1{
+        font-size: 15px;
+    }
+    
+    .right-place{
+    margin:0px;
+    margin-right:5px;
+    }
+
+    .shop-elements{
+        margin-left:5px;
+    }
+}
+
+.shop-element>img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 2px;
+}
+
+.price-arrow{
+    color:rgb(75, 70, 70);
+
+    cursor: pointer;
+}
+
+.icon{
+    color:rgb(75, 70, 70);
+}
+
+.price>h1{
+    color:rgb(75, 70, 70);
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.center{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+table {
+    font-family: 'Open Sans Condensed', sans-serif;
+    border-collapse: collapse;
+
+    width: 15vw;
+
+    border-radius: 15px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    background-color: #c1c2bc5d;
+}
+
+td, th {
+    text-align: left;
+    padding: 5px;
+
+    color:rgb(75, 70, 70);
+    font-size: 20px;
+}
+ 
+tr:last-child{
+    border:none;
+}
+
+tr{
+    border-bottom: 1px solid #918585b2;
+}
